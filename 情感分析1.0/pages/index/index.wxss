@@ -1,0 +1,28 @@
+page{
+  background-image: url(http://i2.tiimg.com/730717/5e2b7a3b3dc836c2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Title {
+  background-color: bisque ;
+  font-family:STXinwei;
+  font-size:30px; 
+  text-align:center; 
+ }
+
+ .input-wrap{
+  display:flex;/*横向*/
+  margin-top: 12px;
+}
+
+.input{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px/*边框粗细*/solid /*实线*/black/*颜色*/;
+}
+
+.result{
+  margin-top: 12px ;
+}

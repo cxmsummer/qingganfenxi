@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="Title">情感分析小工具</view>
+
+<view class="input-wrap">
+<input value="{{inputValue1}}" bindinput="input1" class="input"></input>
+</view>
+
+<view class="result">正向情感：{{result1}}</view>
+<view class="result">负向情感：{{result2}}</view>
+<view>
+<button bindtap="send">点我显示结果</button>
+</view>
